@@ -1,0 +1,5 @@
+{
+  "name": "Ziek Melder: Sick Leave Automation",
+  "description": "A streamlined web application for employees in the Netherlands to report sick leave quickly and efficiently. The app ensures employers are notified according to company policy, simplifying the notification process while respecting privacy.",
+  "requestFramePermissions": []
+}
