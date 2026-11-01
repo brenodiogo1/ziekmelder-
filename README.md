@@ -1,13 +1,24 @@
-# Run and deploy 
+# Ziek Melder
 
-This contains everything you need to run your app locally.
+Ziek Melder is a small React prototype for a Dutch sick-leave reporting flow. You can switch the interface language, fill in a sample report, and view a confirmation screen. The app also includes demo views for employees, companies, and administrators.
 
-## Run Locally
+## Current state
 
-**Prerequisites:**  Node.js
+This repository contains a front-end demo. Submissions stay in the browser's React state; they are not sent to an employer or saved to a database. Dashboard examples come from `mockData.ts`. Authentication, email or WhatsApp delivery, and HR integrations are not connected.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Please use fictional details only. The demo is not suitable for real employee or health information.
+
+## Run locally
+
+Requires Node.js and npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Vite prints the local address in the terminal.
+
+## Built with
+
+React, TypeScript, and Vite. Interface text is kept in `constants.ts`, and the demo data is in `mockData.ts`.
