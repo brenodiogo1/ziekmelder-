@@ -22,3 +22,7 @@ Vite prints the local address in the terminal.
 ## Built with
 
 React, TypeScript, and Vite. Interface text is kept in `constants.ts`, and the demo data is in `mockData.ts`.
+
+## Ownership and permissions
+
+Original material owned by Breno Diogo Ramos de Souza is proprietary, with all rights reserved. See [LICENSE](LICENSE). Third-party components retain their own licenses; prior license grants are not revoked.
